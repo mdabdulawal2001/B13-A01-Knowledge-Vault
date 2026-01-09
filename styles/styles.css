@@ -1,9 +1,8 @@
-.inter {
+/* .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
   font-style: normal;
-}
+} */
 
 body{
     font-family: "Inter", sans-serif;
@@ -46,15 +45,13 @@ body{
     border: none;
     font-weight: 600;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.3s ease;
 }
 
 /* hover effect */
-:hover.btn{
+.btn:hover{
     background: #289655;
 }
-
-
 
 
 .container{
@@ -95,7 +92,7 @@ nav ul li a{
     color: #000000;
     padding: 5px 8px;
     border-radius: 5px;
-    transition: 0.5s;
+    transition: 0.3s ease;
 }
 
 nav ul li a:hover{
@@ -139,11 +136,15 @@ nav ul li a:hover{
     padding: 8px 12px;
     border-radius: 25px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.3s ease;
 }
 
-:hover.first-hero-btn{
+.first-hero-btn:hover{
     background: #c7c4c4;
+}
+
+.first-hero-btn-text{
+    font-weight: 500;
 }
 
 
@@ -185,7 +186,8 @@ nav ul li a:hover{
     align-items: center;
 }
 
-.btn-first-of-two div, img{
+.btn-first-of-two div, 
+.btn-first-of-two img{
     margin: 0;
     display: block;
 }
@@ -193,17 +195,17 @@ nav ul li a:hover{
 .play-btn{
     border: 1px solid #FAFAFA;
     border-radius: 5px;
-    padding: 5.8px 16px;
+    padding: 10.6px 16px;
     display: flex;
     gap: 8px;
     justify-content: center;
     align-items: center;
     color: #FAFAFA;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.3s ease;
 }
 
-:hover.play-btn{
+.play-btn:hover{
     background: #30B868;
 }
 
@@ -276,7 +278,7 @@ nav ul li a:hover{
 
 .display-flex{
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     align-items: center;
     gap: 6px;
 }
@@ -330,7 +332,7 @@ nav ul li a:hover{
     background-color: #FAFAFA;
     border-radius: 50%;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
 
