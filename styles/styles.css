@@ -20,6 +20,7 @@ body{
 }
 .semi-bold{
     font-weight: 600;
+    margin-bottom: 16px;
 }
 .bold {
     font-weight: bold;
@@ -27,6 +28,11 @@ body{
 
 .text-48{
     font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.card-info-color{
+    color: #627382;
 }
 
 .btn{
@@ -39,13 +45,23 @@ body{
     cursor: pointer;
 }
 
+.container{
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.card-image-bg{
+    padding: 12px 12px;
+    border-radius: 50%;
+    background-color: #F95555;
+}
+
+
 
 
 /* navbar related styles */
 .nav-container{
-    max-width: 1200px;
-    width: 95%;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,9 +97,6 @@ nav ul li a{
 }
 
 .hero-container{
-    max-width: 1200px;
-    width: 95%;
-    margin: 0 auto;
     text-align: center;
 }
 
@@ -123,6 +136,7 @@ nav ul li a{
 .hero-description{
     margin-bottom: 30px;
     font-size: 18px;
+    line-height: 30px;
     color: #FAFAFA;
 }
 
@@ -143,4 +157,48 @@ nav ul li a{
     align-items: center;
     color: #FAFAFA;
     cursor: pointer;
+}
+
+
+/* notes section related styles */
+
+.notes-section{
+    margin-bottom: 80px;
+}
+
+.notes-title-part{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.card{
+    padding: 50px 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 6px rgba(0, 0, 0, 0.09);
+    
+}
+
+.notes-card-title{
+    font-size: 24px;
+}
+
+
+.notes-cards-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+/* second brain section related styles */
+
+
+.second-brain-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
